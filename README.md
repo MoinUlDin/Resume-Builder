@@ -1,10 +1,10 @@
-# BlinkFind Website Clone
+# Resume Builder Website Clone
 
 A comprehensive AI-powered productivity platform that helps users transform hours of work into minutes using artificial intelligence. This project is a complete recreation of the BlinkFind website with enhanced features and a modern light theme design.
 
 ## 🌟 Overview
 
-BlinkFind is an innovative AI platform designed for busy professionals who want to maximize their productivity. The platform offers a suite of AI-powered tools, with the flagship AI Resume Builder that creates ATS-optimized resumes in minutes.
+Resume Builder is an innovative AI platform designed for busy professionals who want to maximize their productivity. The platform offers a suite of AI-powered tools, with the flagship AI Resume Builder that creates ATS-optimized resumes in minutes.
 
 ## ✨ Features
 
@@ -27,7 +27,7 @@ BlinkFind is an innovative AI platform designed for busy professionals who want 
 
 ### Project Structure
    ```
-blinkfind-clone/
+resume-builder/
 ├── app/                          # Next.js App Router
 │   ├── globals.css              # Global styles and CSS variables
 │   ├── layout.tsx               # Root layout component
@@ -73,7 +73,7 @@ blinkfind-clone/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/blinkfind-clone.git
+   git clone https://github.com/vchaitanyachowdari/Resume-Builder.git
    cd blinkfind-clone
    ```
 
@@ -356,6 +356,3 @@ For support, email vchaitanya@chowdari.in or create an issue in the GitHub repos
 ---
 
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
-```
-
-Now let me rebuild the entire website with a light color scheme:
