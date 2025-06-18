@@ -26,7 +26,7 @@ BlinkFind is an innovative AI platform designed for busy professionals who want 
 ## 🏗️ Architecture
 
 ### Project Structure
-\`\`\`
+   ```
 blinkfind-clone/
 ├── app/                          # Next.js App Router
 │   ├── globals.css              # Global styles and CSS variables
@@ -52,7 +52,7 @@ blinkfind-clone/
 ├── public/                      # Static assets
 ├── styles/                      # Additional stylesheets
 └── README.md                    # Project documentation
-\`\`\`
+```
 
 ### Technology Stack
 - **Framework**: Next.js 15.2.4 with App Router
@@ -72,38 +72,38 @@ blinkfind-clone/
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/blinkfind-clone.git
    cd blinkfind-clone
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
    # or
    pnpm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
    # or
    pnpm dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
 ### Build for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 📱 Pages & Components
 
@@ -127,7 +127,7 @@ npm start
 ## 🎨 Design System
 
 ### Color Palette (Light Theme)
-\`\`\`css
+```css
 /* Primary Colors */
 --primary: #6366f1        /* Indigo-500 */
 --primary-foreground: #ffffff
@@ -144,7 +144,7 @@ npm start
 /* Accent Colors */
 --accent: #e0e7ff        /* Indigo-100 */
 --secondary: #f1f5f9     /* Slate-100 */
-\`\`\`
+```
 
 ### Typography
 - **Font Family**: Inter (system font fallback)
@@ -160,17 +160,17 @@ npm start
 ## 🔧 Component Documentation
 
 ### Button Component
-\`\`\`tsx
+```tsx
 <Button variant="default" size="lg" className="custom-class">
   Click me
 </Button>
-\`\`\`
+```
 
 **Variants**: default, destructive, outline, secondary, ghost, link
 **Sizes**: default, sm, lg, icon
 
 ### Card Component
-\`\`\`tsx
+```tsx
 <Card>
   <CardHeader>
     <CardTitle>Title</CardTitle>
@@ -180,20 +180,20 @@ npm start
     Content goes here
   </CardContent>
 </Card>
-\`\`\`
+```
 
 ### Form Components
-\`\`\`tsx
+```tsx
 <div className="space-y-2">
   <Label htmlFor="input">Label</Label>
   <Input id="input" placeholder="Enter text..." />
 </div>
-\`\`\`
+```
 
 ### Progress Component
-\`\`\`tsx
+```tsx
 <Progress value={75} className="w-full" />
-\`\`\`
+```
 
 ## 📊 Resume Builder Features
 
@@ -242,7 +242,7 @@ The ATS score is calculated based on:
 ## 🔄 State Management
 
 ### Form Data Structure
-\`\`\`typescript
+```typescript
 interface FormData {
   firstName: string
   lastName: string
@@ -257,7 +257,7 @@ interface FormData {
   skills: string
   projects: ProjectEntry[]
 }
-\`\`\`
+```
 
 ### Progress Calculation
 - Individual field progress: 0% (empty) or 100% (filled)
@@ -291,10 +291,10 @@ interface FormData {
 3. Deploy with automatic CI/CD
 
 ### Manual Deployment
-\`\`\`bash
+```bash
 npm run build
 npm run export  # For static export if needed
-\`\`\`
+```
 
 ## 🧪 Testing
 
@@ -351,11 +351,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@blinkfind-clone.com or create an issue in the GitHub repository.
+For support, email vchaitanya@chowdari.in or create an issue in the GitHub repository.
 
 ---
 
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
-\`\`\`
+```
 
 Now let me rebuild the entire website with a light color scheme:
